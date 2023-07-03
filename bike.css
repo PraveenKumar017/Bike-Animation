@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(32,145,221);
+}
+ul{
+     position: absolute;
+     top: 5%;
+     right:5% ;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+ul li {
+    text-decoration: none;
+    font-family: sans-serif ;
+    font-weight: 500px;
+    color: white;   
+}
+.thumbnail{
+    padding: 7%;
+    stroke-width: 100px;
+}
+.thumbnail li{
+    list-style: none;
+    position: relative;
+}
+.thumbnail img{
+    display: block;
+    max-width: 120px;
+    transition: 0.5s;
+}
+.thumbnail img:hover{
+    transform: translateX(30px);
+    transition: 0.5s;
+}
+.big-img img{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    max-width: 500px;
+    max-height: 300px;
+}
+.content {
+    position: absolute;
+    cursor: pointer;
+    max-width: 40%;
+    right: 3%;
+    top: 20%;
+}
+
+.content h1{
+    font-size: 80px;
+    font-weight: 600;
+    font-family: fantasy;
+    color: rgb(28, 211, 211);
+    text-shadow: 5px 5px 2px rgba(0,0,0,0.5);
+}
+.content h5{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 13%;
+
+}
+.path{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    clip-path: circle(520px at left 300px);
+
+}
+span{
+    color: #FF8551;
+}
+.content p{
+    font-size: 50px;
+    font-family: cursive;
+    margin-left: 16%;
+    font-weight: 700;   
+}
+.click{
+    
+    font-family: sans-serif;
+    color: rgb(28, 211, 211);
+    text-shadow: 3px 3px 2px rgba(244, 12, 12, 0.5);
+}
